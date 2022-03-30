@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".HomeActivity">
 
     <TextView
@@ -16,5 +17,15 @@
         android:layout_marginStart="43dp"
         android:layout_marginTop="29dp"
         android:text="Welcome to the unofficial forum page for VIT Bhopal"
-        android:textColor="@color/black" />
+        android:textColor="@color/white" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="68dp"
+        android:background="@color/purple_500" />
+
 </RelativeLayout>
