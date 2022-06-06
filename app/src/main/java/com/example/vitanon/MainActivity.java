@@ -14,8 +14,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         MediaPlayer startupsound=MediaPlayer.create(this, R.raw.start13691);
         startupsound.start();
+
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
@@ -24,5 +26,6 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         }, SP);
+
     }
 }
