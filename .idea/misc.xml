@@ -4,8 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Android Studio/VITAnon/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2555" />
+        <entry key="..\:/Android Studio/VITAnon/app/src/main/res/layout/activity_ask_all_vit.xml" value="0.25" />
+        <entry key="..\:/Android Studio/VITAnon/app/src/main/res/layout/activity_ask_vit_bhopal.xml" value="0.25" />
         <entry key="..\:/Android Studio/VITAnon/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Android Studio/VITAnon/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Android Studio/VITAnon/app/src/main/res/layout/activity_misc.xml" value="0.25" />
+        <entry key="..\:/Android Studio/VITAnon/app/src/main/res/layout/activity_vit_meme.xml" value="0.25" />
+        <entry key="..\:/Android Studio/VITAnon/app/src/main/res/layout/activity_your_feed.xml" value="0.25" />
+        <entry key="..\:/Android Studio/VITAnon/app/src/main/res/layout/toolbar_design.xml" value="0.25" />
+        <entry key="..\:/Android Studio/VITAnon/app/src/main/res/layout/your_feed.xml" value="0.24895833333333334" />
+        <entry key="..\:/Android Studio/VITAnon/app/src/main/res/menu/main_menu.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VITAnon">
         <activity
+            android:name=".Misc"
+            android:exported="false" />
+        <activity
+            android:name=".VitMeme"
+            android:exported="false" />
+        <activity
+            android:name=".AskAllVit"
+            android:exported="false" />
+        <activity
+            android:name=".AskVitBhopal"
+            android:exported="false" />
+        <activity
+            android:name=".YourFeed"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
