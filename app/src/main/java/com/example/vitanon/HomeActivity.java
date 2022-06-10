@@ -8,13 +8,45 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.QuickContactBadge;
 
 public class HomeActivity extends AppCompatActivity {
+
+    ImageView home, post, user;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        home=findViewById(R.id.imageView5);
+        home.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(HomeActivity.this, HomeActivity.class);
+                startActivity(i);
+            }
+        });
+
+        post=findViewById(R.id.imageView3);
+        post.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(HomeActivity.this, Post.class);
+                startActivity(i);
+            }
+        });
+
+        user=findViewById(R.id.imageView4);
+        user.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(HomeActivity.this, User.class);
+                startActivity(i);
+            }
+        });
 
     }
 
