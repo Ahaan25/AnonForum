@@ -10,7 +10,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
-import android.widget.QuickContactBadge;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -77,7 +76,7 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(ia);
                 return true;
             case R.id.item5:
-                Intent ig=new Intent(HomeActivity.this, Misc.class);
+                Intent ig=new Intent(HomeActivity.this, Chat.class);
                 startActivity(ig);
                 return true;
             default:return super.onOptionsItemSelected(item);

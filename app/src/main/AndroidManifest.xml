@@ -16,7 +16,7 @@
             android:name=".User"
             android:exported="false" />
         <activity
-            android:name=".Misc"
+            android:name=".Chat"
             android:exported="false" />
         <activity
             android:name=".VitMeme"

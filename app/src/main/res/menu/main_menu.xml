@@ -23,7 +23,7 @@
         app:showAsAction="never" />
     <item
         android:id="@+id/item5"
-        android:title="Misc"
+        android:title="Chat"
         android:textColor="@color/black"
         app:showAsAction="never" />
 </menu>
